@@ -20,9 +20,9 @@ UK_RS_conn <-
   dbConnect(RPostgres::Postgres(),  
             host = "tjgsqlrs.cuiplefksiss.eu-west-1.redshift.amazonaws.com", 
             port = 5439, 
-            user = "parastooghalamchi", 
-            password = "7cj57VqMtt9", 
-            dbname = "tjgrsdb",
+            user = "", 
+            password = "", 
+            dbname = "",
             sslmode="require")
 
 # CE country DB
